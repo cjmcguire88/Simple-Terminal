@@ -19,5 +19,7 @@ ___
 **Install**
 - *edit config.mk to match your local setup*
 - `make clean install`
+___
+# *It's just a terminal... but them colors though...*
 
 ![st](st.png)
