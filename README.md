@@ -7,6 +7,9 @@
   - *scrollback-mouse*
   - *scrollback-mouse-altscreen*
   - *desktopentry*
+  - *xclearwin*
+  - *w3m*
+  - *sync* (part 2)
 ___
 **Other changes**
 - *Material (flat) colors*  
