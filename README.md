@@ -20,8 +20,10 @@ ___
 |[MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)|
 ___
 **Install**
-- *edit config.mk to match your local setup*
+- *edit config.mk to match your setup*
 - `make clean install`
 ___
 
 ![st](st.png)
+
+Note: ST looks for cflags in your environment variables. If you have them set you will get an optimized build!!!
