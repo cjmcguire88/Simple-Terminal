@@ -77,7 +77,7 @@ static unsigned int cursorthickness = 2;
  * bell volume. It must be a value between -100 and 100. Use 0 for disabling
  * it
  */
-static int bellvolume = 0;
+static int bellvolume = 25;
 
 /* default TERM value */
 char *termname = "st-256color";
@@ -97,46 +97,53 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	/* 8 normal colors */
-	"gray13",
-	"red2",
-	"green2",
-	"yellow",
-	"deepskyblue3",
-	"magenta2",
-	"cyan2",
-	"gray90",
 
-	/* 8 bright colors */
-	"gray50",
-	"red1",
-	"green1",
-	"yellow1",
-	"deepskyblue1",
-	"magenta1",
-	"cyan1",
-	"white",
+  /* 8 normal colors */
+  [0] = "#212121", /* black   */
+  [1] = "#cd0000", /* red     */
+  [2] = "#00cd00", /* green   */
+  [3] = "#ffc135", /* yellow  */
+  [4] = "#1793d1", /* blue    */
+  [5] = "#cd00cd", /* magenta */
+  [6] = "#00acc1", /* cyan    */
+  [7] = "#fff8dc", /* white   */
 
-	[255] = 0,
+  /* 8 bright colors */
+  [8]  = "#7f7f7f", /* black   */
+  [9]  = "#ff2b2b", /* red     */
+  [10] = "#36fb36", /* green   */
+  [11] = "#ffd740", /* yellow  */
+  [12] = "#40c4ff", /* blue    */
+  [13] = "#ff08e8", /* magenta */
+  [14] = "#18ffff", /* cyan    */
+  [15] = "#ededed", /* white   */
 
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#cccccc",
-	"#555555",
+  /* special colors */
+  [256] = "#000000", /* background */
+  [257] = "#dce4e7", /* foreground */
 };
-
 
 /*
  * Default colors (colorname index)
- * foreground, background, cursor, reverse cursor
+ * foreground, background, cursor
  */
 unsigned int defaultfg = 7;
 unsigned int defaultbg = 0;
-static unsigned int defaultcs = 256;
+static unsigned int defaultcs = 257;
 static unsigned int defaultrcs = 257;
+
+/*
+ * Colors used, when the specific fg == defaultfg. So in reverse mode this
+ * will reverse too. Another logic would only make the simple feature too
+ * complex.
+ */
+static unsigned int defaultitalic = 7;
+static unsigned int defaultunderline = 7;
+
 
 /*
  * Default shape of cursor
@@ -145,7 +152,7 @@ static unsigned int defaultrcs = 257;
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 
 /*
  * Default columns and rows numbers
