@@ -1,7 +1,6 @@
-# **suckless-st-fork**
-## *my customized st*
+# **Suckless Simple-Terminal**
 
-**Patches applied:**
+## **Patches applied:**
   - *anysize*
   - *scrollback*
   - *scrollback-mouse*
@@ -11,16 +10,16 @@
   - *w3m*
   - *sync* (part 2)
 ___
-**Other changes**
+## **Other changes**
 - *Colors: There are 3 different color schemes. OneDark, material, and vibrant. Default is material. Switch out the  
            configs to change schemes.*  
-- *MesloLGS NF font* (Download below)  
+- *MesloLGS NF font* (Download below or change font in config.h)  
 |[MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)|
 |[MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)|
 |[MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)|
 |[MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)|
 ___
-**Install**
+## **Install**
 - *edit config.mk to match your setup*
 - `make clean install`
 ___
