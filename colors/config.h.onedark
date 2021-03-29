@@ -103,23 +103,23 @@ unsigned int tabspaces = 4;
 static const char *colorname[] = {
 
   /* 8 normal colors */
-  [0] = "#232425", /* black   */
-  [1] = "#c04545", /* red     */
-  [2] = "#58c059", /* green   */
-  [3] = "#cac347", /* yellow  */
+  [0] = "#282c34", /* black   */
+  [1] = "#e06c75", /* red     */
+  [2] = "#98c379", /* green   */
+  [3] = "#e5c07b", /* yellow  */
   [4] = "#1793d1", /* blue    */
-  [5] = "#c35bc3", /* magenta */
-  [6] = "#5abbc1", /* cyan    */
+  [5] = "#c678dd", /* magenta */
+  [6] = "#56b6c2", /* cyan    */
   [7] = "#fffdf3", /* white   */
 
   /* 8 bright colors */
   [8]  = "#6f6c67", /* black   */
-  [9]  = "#fe5959", /* red     */
-  [10] = "#78fe78", /* green   */
-  [11] = "#fafe59", /* yellow  */
-  [12] = "#77d4fe", /* blue    */
-  [13] = "#fe77f1", /* magenta */
-  [14] = "#7efefe", /* cyan    */
+  [9]  = "#e06c75", /* red     */
+  [10] = "#98c379", /* green   */
+  [11] = "#e5c07b", /* yellow  */
+  [12] = "#61afef", /* blue    */
+  [13] = "#c678dd", /* magenta */
+  [14] = "#56b6c2", /* cyan    */
   [15] = "#cac8c0", /* white   */
 
   /* special colors */
