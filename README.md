@@ -12,7 +12,7 @@
   - *sync* (part 2)
 ___
 **Other changes**
-- *Colors: Modified onedark with Arch Linux blue and more vibrant brights.*  
+- *Colors: Modified onedark with Arch Linux blue, darker bg and more vibrant brights.*  
 - *MesloLGS NF font* (Download below)  
 |[MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)|
 |[MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)|
