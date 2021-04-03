@@ -11,7 +11,7 @@
   - *sync* (part 2)
 ___
 ## **Other changes**
-- *Colors: There are 3 different color schemes. OneDark, material, and vibrant. Default is material. Switch out the  
+- *Colors: There are 4 different color schemes. OneDark, material, flat and bright . Default is flat. Switch out the  
            configs to change schemes.*  
 - *MesloLGS NF font* (Download below or change font in config.h)  
 |[MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)|
