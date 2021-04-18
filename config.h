@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "MesloLGS NF:pixelsize=14:antialias=true:autohint=true";
+static char *font = "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -102,24 +102,24 @@ unsigned int tabspaces = 4;
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
 
-  /* 8 normal colors */
+/* 8 normal colors */
   [0] = "#232425", /* black   */
   [1] = "#e06c75", /* red     */
   [2] = "#98c379", /* green   */
-  [3] = "#e5c07b", /* yellow  */
+  [3] = "#f0c674", /* yellow  */
   [4] = "#61afef", /* blue    */
   [5] = "#c678dd", /* magenta */
   [6] = "#56b6c2", /* cyan    */
-  [7] = "#fffdf3", /* white   */
+  [7] = "#fffceb", /* white   */
 
   /* 8 bright colors */
-  [8]  = "#6f6c67", /* black   */
-  [9]  = "#e06c75", /* red     */
-  [10] = "#98c379", /* green   */
-  [11] = "#e5c07b", /* yellow  */
-  [12] = "#61afef", /* blue    */
-  [13] = "#c678dd", /* magenta */
-  [14] = "#56b6c2", /* cyan    */
+  [8]  = "#413f3d", /* black   */
+  [9]  = "#fe8372", /* red     */
+  [10] = "#b5fa73", /* green   */
+  [11] = "#fffdc3", /* yellow  */
+  [12] = "#a5d5fe", /* blue    */
+  [13] = "#fe8ffe", /* magenta */
+  [14] = "#b1e2e0", /* cyan    */
   [15] = "#fffdf3", /* white   */
 
   /* special colors */
