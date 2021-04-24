@@ -13,8 +13,8 @@
 ___
 ## **Other changes**
 - Colors:  
-    Default: FlatUI colors  
-    Alternative: Standard colors are OneDark except for the background which is considerably darker. Bright colors are a pastel version of OneDark.  
+    Default: [FlatUI colors](http://designmodo.github.io/Flat-UI/)
+    Alternative: Standard colors are [OneDark](https://github.com/joshdick/onedark.vim) except for the background which is considerably darker. Bright colors are a pastel version of OneDark.  
     To switch colorschemes: `mv config.h.alt config.h`
 
 - Font: Uses JetBrainsMono Nerd Font as primary (can be changed). Uses MesloLGS NF as a secondary (I suggest leaving this one as is and downloading below because this font will provide icons if the primary font does not.)  
