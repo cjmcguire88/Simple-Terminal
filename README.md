@@ -13,7 +13,7 @@
 ___
 ## **Other changes**
 - Colors:  
-    Default: [FlatUI colors](http://designmodo.github.io/Flat-UI/)
+    Default: [FlatUI colors](http://designmodo.github.io/Flat-UI/)  
     Alternative: Standard colors are [OneDark](https://github.com/joshdick/onedark.vim) except for the background which is considerably darker. Bright colors are a pastel version of OneDark.  
     To switch colorschemes: `mv config.h.alt config.h`
 
