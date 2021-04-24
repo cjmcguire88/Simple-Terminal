@@ -12,7 +12,9 @@
   - *sync* (part 2)
 ___
 ## **Other changes**
-- Colors: Standard colors are OneDark except for the background which is considerably darker. Bright colors are a pastel version of OneDark.  
+- Colors: 
+    Default: FlatUI colors  
+    Alternative: Standard colors are OneDark except for the background which is considerably darker. Bright colors are a pastel version of OneDark.  
 - Font: Uses JetBrainsMono Nerd Font as primary (can be changed). Uses MesloLGS NF as a secondary (I suggest leaving this one as is and downloading below because this font will provide icons if the primary font does not.)  
 |[MesloLGS NF Regular.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Regular.ttf)|
 |[MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)|
