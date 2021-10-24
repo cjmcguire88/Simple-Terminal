@@ -10,6 +10,8 @@
   - *w3m*
   - *font2*
   - *sync* (part 2)
+  - *xresources*
+
 ___
 ## **Other changes**
 - Colors:  
