@@ -6,9 +6,7 @@
   - *scrollback-mouse*
   - *scrollback-mouse-altscreen*
   - *desktopentry*
-  - *xclearwin*
   - *w3m*
-  - *font2*
   - *sync* (part 2)
   - *xresources*
 

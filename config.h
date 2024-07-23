@@ -3,11 +3,7 @@
 /*
  * appearance
  */
-static char *font = "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
-/* Spare fonts */
-static char *font2[] = {
-    "MesloLGS NF:pixelsize=14:antialias=true:autohint=true"};
-
+static char *font = "MesloLGS NF:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
@@ -119,14 +115,14 @@ static const char *colorname[] = {
   [9]  = "#e74c3c", /* red     */
   [10] = "#2ecc71", /* green   */
   [11] = "#f1c40f", /* yellow  */
-  [12] = "#3498db", /* blue    */
+  [12] = "#1793d1", /* blue    */
   [13] = "#9b59b6", /* magenta */
   [14] = "#1abc9c", /* cyan    */
   [15] = "#f7f7f7", /* white   */
 
   /* special colors */
-  [256] = "#000000", /* background */
-  [257] = "#dce4e7", /* foreground */
+  [256] = "#202124", /* background */
+  [257] = "#edfefe", /* foreground */
 };
 
 /*
@@ -135,8 +131,8 @@ static const char *colorname[] = {
  */
 unsigned int defaultfg = 257;
 unsigned int defaultbg = 256;
-static unsigned int defaultcs = 257;
-static unsigned int defaultrcs = 257;
+unsigned int defaultcs = 257;
+unsigned int defaultrcs = 257;
 
 /*
  * Colors used, when the specific fg == defaultfg. So in reverse mode this

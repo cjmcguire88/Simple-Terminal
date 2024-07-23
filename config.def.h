@@ -3,11 +3,7 @@
 /*
  * appearance
  */
-static char *font = "JetBrainsMono Nerd Font:pixelsize=14:antialias=true:autohint=true";
-/* Spare fonts */
-static char *font2[] = {
-    "MesloLGS NF:pixelsize=14:antialias=true:autohint=true"};
-
+static char *font = "MesloLGS NF:pixelsize=14:antialias=true:autohint=true";
 static int borderpx = 2;
 
 /*
