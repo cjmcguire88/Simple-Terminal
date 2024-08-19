@@ -1,17 +1,20 @@
 # **Suckless Simple-Terminal**
 
 ## **Patches applied:**
-  - *anysize*
-  - *scrollback*
-  - *scrollback-mouse*
-  - *scrollback-mouse-altscreen*
-  - *desktopentry*
-  - *w3m*
-  - *sync* (part 2)
-  - *xresources*
+
+- *anysize*
+- *scrollback-ringbuffer*
+- *scrollback-mouse*
+- *scrollback-mouse-altscreen*
+- *desktopentry*
+- *w3m*
+- *sync* (part 2)
+- *xresources*
 
 ___
+
 ## **Other changes**
+
 - Colors:  
     Default: [FlatUI colors](http://designmodo.github.io/Flat-UI/)  
     Alternative: Standard colors are [OneDark](https://github.com/joshdick/onedark.vim) except for the background which is considerably darker. Bright colors are a pastel version of OneDark.  
@@ -22,10 +25,14 @@ ___
 |[MesloLGS NF Bold.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold.ttf)|
 |[MesloLGS NF Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Italic.ttf)|
 |[MesloLGS NF Bold Italic.ttf](https://github.com/romkatv/powerlevel10k-media/raw/master/MesloLGS%20NF%20Bold%20Italic.ttf)|
+
 ___
+
 ## **Install**
+
 - *edit config.mk to match your setup*
 - `make clean install`
+
 ___
 **FlatUI:**
 ![st2](st2.png)
